@@ -19,3 +19,7 @@ variable "keypair-name" {
 variable "app_subnet_ids" {
   type = "string"
 }
+variable "cluster-name" {
+  default = "terraform-eks-demo"
+  type    = string
+}
